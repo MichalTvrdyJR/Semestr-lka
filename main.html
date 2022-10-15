@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Main</title>
-    <link rel = "stylesheet" href="css/WTD.css" />
+    <link rel = "stylesheet" href="css/main.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -12,7 +12,7 @@
     <nav class="navbar navbar-expand-lg navbar-background-color">
         <div class="container-fluid">
             <a class="navbar-brand" href="main.html#header">
-                <img src="img/logo.png" class="rounded-pill" style="width: 100px">
+                <img src="img/logo.png" class="rounded-pill" style="width: 100px" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,21 +32,22 @@
                         <a class="nav-link light-text" href="cart.html#cart">Cart</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link light-text" href="contact_us.html#contact_us">Contact us</a>
+                        <a class="nav-link light-text" href="contact_us.html">Contact us</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2 light-color" type="search" placeholder="What are u looking for">
-                <button class="btn btn-outline-secondary light-text" type="submit">Search</button>
+                    <label>
+                        <input class="form-control me-2 light-color" id="search" type="search" placeholder="Type here">
+                    </label>
+                    <button class="btn btn-outline-secondary light-text" type="submit">Search</button>
                 </form>
             </div>
         </div>
     </nav>
 </header>
 <div>
-    <h1>Hi everyone</h1>
     <div class="container">
-        <a><img src="/img/main_foto_1.jpg" style="max-width:100%;height:auto;"> </a>
+        <a><img src="/img/main_foto_1.jpg" style="max-width:100%;height:auto;" alt="Chefs"> </a>
         <p class="about-us dark-text">
             You know that feeling when we're hungry?<br>
             So you should join us. You will never have that feeling with us.
@@ -63,10 +64,9 @@
             course, upon agreement, catering is also available, as well as the
             possibility of ordering our cook to your place for a celebration or similar.
             We also have various discounts, promotions, or even prizes for our members.
-            That's why it's worth registering. If you still don't believe that we are the
+            That's why it's worth <a href="registration.html">registering</a>. If you still don't believe that we are the
             best in Žilina, come and taste it, and you will see that you will never go
             anywhere else.
-
         </p>
     </div>
 </div>

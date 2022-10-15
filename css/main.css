@@ -25,10 +25,11 @@ body {
 
 .about-us {
     font-family: "Bookman Old Style";
-    font-size: 15px;
+    font-size: 18px;
     position: relative;
     text-align: center;
     top: 5vh;
+    font-weight: bold;
 }
 
 h1 {
@@ -37,25 +38,15 @@ h1 {
     position: relative;
     top: 0vh;
     text-align: center;
-}
-
-@media(max-width: 840px) {
-    .about-us {
-        left: 0vw;
-        top: 2vh;
-        font-size: 12px;
-    }
-
-    h1{
-        font-size: 25px;
-        text-align: center;
-    }
+    font-weight: bold;
 }
 
 .container {
+    width: 95%;
     display: flex;
     align-items: center;
     flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 .center {
@@ -73,10 +64,60 @@ h1 {
     background-color: #d3cecb;
     color: #7a5b05;
     border: 2px solid #1f69b2;
+    font-weight: bold;
     text-align: center;
+}
+
+.button-login {
+    background-color: #7a5b05;
+    color: #d3cecb;
+    border: 2px solid #d3cecb;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-login:hover {
+    background-color: #d3cecb;
+    color: #7a5b05;
 }
 
 .button-buy:hover {
     background-color: #1f69b2;
     color: #d3cecb;
+}
+
+.products {
+    position: relative;
+    float: bottom;
+    width: 100%;
+}
+
+.products-img {
+    float: left;
+    padding: 2px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height:auto;
+}
+
+.products-title {
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    padding: 20px 0;
+}
+
+h2 {
+    font-family: "Bookman Old Style";
+}
+
+.menu {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-colors {
+    color: #7a5b05;
 }
