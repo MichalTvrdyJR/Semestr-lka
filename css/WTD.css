@@ -1,0 +1,45 @@
+body {
+    background-image: url("/img/backround.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+
+.navbar-background-color {
+    background-color: #7a5b05 !important;
+}
+
+.light-text {
+    color: #d3cecb !important;
+}
+
+.dark-text {
+    color: #7a5b05 !important;
+}
+
+.dropdown-item:hover {
+    color: black !important;
+}
+
+.about-us {
+    font-family: "Bookman Old Style";
+    font-size: 15px;
+    position: relative;
+    left: 7vw;
+    top: 10vh;
+}
+
+h1 {
+    font-family: "Bookman Old Style";
+    font-size: 30px;
+    position: relative;
+
+}
+
+@media only screen and(max-width: 840px) {
+    .about-us {
+        left: 0vw !important;
+    }
+}
